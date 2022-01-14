@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Version>1</Version>
+	<PostCode>98121</PostCode>
+	<Country>United States</Country>
+	<CountryAbbreviation>US</CountryAbbreviation>
+	<DataCreationDate>2022/01/13</DataCreationDate>
+	<DataCreationTime>23:53:00</DataCreationTime>
+	<User>https://github.com/ivanfbj</User>
+	<Statistics>
+		<PlaceCount>1</PlaceCount>
+		<StateCount>1</StateCount>
+	</Statistics>
+	<Places>
+		<Place>
+			<Number>1</Number>
+			<Values>
+				<PlaceName>Seattle</PlaceName>
+				<Longitude>-122.3447</Longitude>
+				<State>Washington</State>
+				<StateAbbreviation>WA</StateAbbreviation>
+				<Latitude>47.6151</Latitude>
+			</Values>
+		</Place>
+	</Places>
+</Data>

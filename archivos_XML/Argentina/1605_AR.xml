@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Version>1</Version>
+	<PostCode>1605</PostCode>
+	<Country>Argentina</Country>
+	<CountryAbbreviation>AR</CountryAbbreviation>
+	<DataCreationDate>2022/01/13</DataCreationDate>
+	<DataCreationTime>23:53:00</DataCreationTime>
+	<User>https://github.com/ivanfbj</User>
+	<Statistics>
+		<PlaceCount>3</PlaceCount>
+		<StateCount>1</StateCount>
+	</Statistics>
+	<Places>
+		<Place>
+			<Number>1</Number>
+			<Values>
+				<PlaceName>MUNRO</PlaceName>
+				<Longitude>-58.55</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5333</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>2</Number>
+			<Values>
+				<PlaceName>CARAPACHAY</PlaceName>
+				<Longitude>-58.55</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5333</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>3</Number>
+			<Values>
+				<PlaceName>MUNRO ESTAFETA No.2</PlaceName>
+				<Longitude>-58.55</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5333</Latitude>
+			</Values>
+		</Place>
+	</Places>
+</Data>

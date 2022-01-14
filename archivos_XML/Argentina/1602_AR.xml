@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Version>1</Version>
+	<PostCode>1602</PostCode>
+	<Country>Argentina</Country>
+	<CountryAbbreviation>AR</CountryAbbreviation>
+	<DataCreationDate>2022/01/13</DataCreationDate>
+	<DataCreationTime>23:53:00</DataCreationTime>
+	<User>https://github.com/ivanfbj</User>
+	<Statistics>
+		<PlaceCount>6</PlaceCount>
+		<StateCount>2</StateCount>
+	</Statistics>
+	<Places>
+		<Place>
+			<Number>1</Number>
+			<Values>
+				<PlaceName>FLORIDA</PlaceName>
+				<Longitude>-58.5</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5167</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>2</Number>
+			<Values>
+				<PlaceName>ARISTOBULO DEL VALLE</PlaceName>
+				<Longitude>-58.5</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5167</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>3</Number>
+			<Values>
+				<PlaceName>DOCTOR ANTONIO CETRANGOLO (PARADA FCGM)</PlaceName>
+				<Longitude>-58.5</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5167</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>4</Number>
+			<Values>
+				<PlaceName>PUENTE SAAVEDRA</PlaceName>
+				<Longitude>-58.5</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5167</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>5</Number>
+			<Values>
+				<PlaceName>FLORIDA ESTAFETA No.1</PlaceName>
+				<Longitude>-58.5</Longitude>
+				<State>BUENOS AIRES</State>
+				<StateAbbreviation>B</StateAbbreviation>
+				<Latitude>-34.5167</Latitude>
+			</Values>
+		</Place>
+		<Place>
+			<Number>6</Number>
+			<Values>
+				<PlaceName>JUAN B. JUSTO (ESTACION FCGM. FLORIDA</PlaceName>
+				<Longitude>-34.5167</Longitude>
+				<State>PDO. V. LOPEZ)</State>
+				<StateAbbreviation>BUENOS AIRES</StateAbbreviation>
+				<Latitude/>
+			</Values>
+		</Place>
+	</Places>
+</Data>
