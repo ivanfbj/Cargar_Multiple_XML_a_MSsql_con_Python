@@ -2,6 +2,7 @@ import os
 import pyodbc
 from tqdm import tqdm
 
+# Esta clase permite añadir colores a los mensajes que se imprimen en la consola
 class bcolors:
     OK = '\033[92m' #GREEN
     WARNING = '\033[93m' #YELLOW
@@ -14,9 +15,11 @@ class bcolors:
 
 
 full_path_file_list = []
+# Se debe poner el nombre de la tabla que se va a utilizar para cargar la información de los XML.
 table_name = 'data_xml'
-# table_name = 'data_xml_nube'
+# La ruta completa de los archivos XML dentro de la carpeta se guardan en un archivo.
 with open(f'listado_completo_XML_{table_name}.txt', 'w') as temp_file:
+    # En caso de que la ruta que almacena los XML este en otra carpeta, se debe actualizar la ruta.
     for root, dirs, files in tqdm(os.walk(os.path.abspath(r".\archivos_XML")), desc=f'{bcolors.OK} Carpetas Recorridas    '):
         for file in files:
             # print(full_path_files)
@@ -61,6 +64,7 @@ for path_file in tqdm(full_path_file_list, desc='Recorriendo Lista de rutas para
                                         SINGLE_BLOB
                                         ) AS op_xml
                         """)
+    # Si algún XML genera error al insertar a la base de datos por algun motivo, se guarda la ruta completa del XML en un archivo.
     except:
         with open(f'listado_XML_con_error_{table_name}.txt', 'a') as temp_file_error:
             temp_file_error.write(path_file)
